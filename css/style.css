@@ -92,8 +92,8 @@ nav li a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url(../img/developer.png);
-    background-repeat: no-repeat;
+    /* background-image: url(../img/developer.png);
+    background-repeat: no-repeat; */
 }
 
 .banner-content {
@@ -102,6 +102,7 @@ nav li a {
 
 .banner .profile-pic {
     width: 500px;
+    margin-right: 50px;
 }
 
 .banner-greetings {
@@ -204,7 +205,7 @@ main section {
 }
 
 .resume-item-title {
-    color:  #474747;
+    color: #474747;
     font-size: 25px;
     font-weight: 700;
     margin-top: 30px;
@@ -241,13 +242,42 @@ footer {
 
 .footer-container {
     display: flex;
+    gap: 100px;
 }
 
-.footer-column .section-title,.section-description {
+.footer-column .section-title,
+.section-description {
     text-align: left;
+}
+
+.footer-column .section-description {
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
 }
 
 .social-links img {
     width: 24px;
     height: 24px;
+    margin-right: 24px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.footer-column .section-title {
+    margin-bottom: 20px;
+}
+
+.contact input[type="text"],input[type="email"],textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 85%;
 }

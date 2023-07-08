@@ -126,10 +126,24 @@ nav li a {
 
 /* MAIN STYLES*/
 
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* ABOUT SECTION */
 .about {
   padding: 130px;
   border-radius: 10px;
   background: #fff8f3;
   margin: 130px 0;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
 }

@@ -55,9 +55,9 @@ body {
 
 .header-area {
     background-color: #fff8f3;
-    background-image: url(../img/header_bg.png);
+    background-image: url('../img/header_bg.png'),url('../img/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
 }
 
 /* Nav releted Styles */
@@ -66,6 +66,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin: 0 100px;
+    padding-top: 30px;
 }
 
 .nav-title {
@@ -88,12 +89,10 @@ nav li a {
 }
 
 .banner {
-    padding: 30px 30px 0 100px;
+    padding: 90px 30px 0px 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background-image: url(../img/developer.png);
-    background-repeat: no-repeat; */
 }
 
 .banner-content {

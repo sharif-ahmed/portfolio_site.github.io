@@ -9,6 +9,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    width: 100%;
+}
+
 li {
     list-style: none;
 }
@@ -32,11 +36,18 @@ body {
     color: #FD6E0A;
 }
 
+/* HEADER AREA START*/
+
+.header-area {
+    background-color: #FFF8F3;
+}
+
 /* Nav releted Styles */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 
 .nav-title{
@@ -58,4 +69,13 @@ nav li a {
     color: #474747;
 }
 
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
 
+.banner .profile-pic {
+    width: 500px;
+}
+/* HEADER AREA END */
